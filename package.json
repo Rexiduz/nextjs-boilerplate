@@ -8,11 +8,17 @@
     "start": "next start"
   },
   "dependencies": {
+    "@ant-design/icons": "^4.6.2",
     "@next/bundle-analyzer": "^10.0.9",
     "@reduxjs/toolkit": "^1.5.0",
+    "antd": "^4.14.0",
     "classnames": "^2.2.6",
+    "cross-env": "^7.0.3",
+    "dayjs": "^1.10.4",
+    "esm": "^3.2.25",
     "lodash": "^4.17.21",
     "next": "10.0.5",
+    "postcss-preset-env": "^6.7.0",
     "react": "17.0.1",
     "react-combine-providers": "^0.9.6",
     "react-dom": "17.0.1",
@@ -20,7 +26,10 @@
     "react-redux": "^7.2.2",
     "react-responsive": "^8.2.0",
     "sass": "^1.32.8",
+    "styled-components": "^5.2.1",
     "sweetalert2": "^10.15.6"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.12.0"
+  }
 }
