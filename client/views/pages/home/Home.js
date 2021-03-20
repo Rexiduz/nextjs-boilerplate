@@ -6,8 +6,10 @@ const Container = styled.div``
 
 export default function Home() {
   return (
-    <Container>
-      <LoginForm />
+    <Container className="bg-red-50">
+      <div>
+        <LoginForm />
+      </div>
     </Container>
   )
 }
