@@ -1,0 +1,19 @@
+$bp-xs: 576px;
+$bp-sm: 768px;
+$bp-md: 992px;
+$bp-lg: 1200px;
+$bp-xl: 1366px;
+$bp-2xl: 1600px;
+
+:export {
+  // The order of export relate with withBreakpoint.js
+  // Please be careful ordering export
+  breakpoint: {
+    xs: $bp-xs;
+    sm: $bp-sm;
+    md: $bp-md;
+    lg: $bp-lg;
+    xl: $bp-xl;
+    xxl: $bp-2xl;
+  }
+}

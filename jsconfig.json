@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@Client/*": ["client/*"],
+      "@View/*": ["client/views/*"],
+      "@Shared/*": ["shared/*"],
+      "@Public/*": ["public/*"]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@import 'typography.scss';
+
+:root {
+  --text-base-size: 1em;
+  --font-primary: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-primary);
+  font-size: var(--text-base-size);
+}
