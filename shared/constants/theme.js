@@ -1,14 +1,21 @@
-import CssVariable from '@View/styles/modules/variables.module.scss'
+import { createMuiTheme } from '@material-ui/core/styles'
+import { red } from '@material-ui/core/colors'
 
-const theme = {
-  screens: {
-    xs: CssVariable['breakpoint-xs'],
-    sm: CssVariable['breakpoint-sm'],
-    md: CssVariable['breakpoint-md'],
-    lg: CssVariable['breakpoint-lg'],
-    xl: CssVariable['breakpoint-xl'],
-    xxl: CssVariable['breakpoint-xxl']
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: '#556cd6'
+    },
+    secondary: {
+      main: '#19857b'
+    },
+    error: {
+      main: red.A400
+    },
+    background: {
+      default: '#fff'
+    }
   }
-}
+})
 
 export default theme
